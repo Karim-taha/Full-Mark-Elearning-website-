@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Start Course details */
+
+.courseName{
+    font-size: 50px;
+}
+
+.brief{
+    font-size: 22px;
+}
+
+.rate{
+    font-size: 15px;
+}
+
+.rateNumbers{
+    font-size: 15px;
+}
+
+.author{
+    font-size: 17px;
+}
+
+  .authorName {
+    text-decoration: underline;
+    font-size: 17px;
+  }
+
+  .btnContainer{
+      font-size: 20px;
+  }
+  /* End course details*/
+
+
+  /* Start Course Content */
+
+    /* Start What you'll learn */
+
+    .whatLearn{
+        font-size: 35px;
+    }
+
+    .learn{
+        font-size: 18px;
+    }
+
+
+
+    /* End What you'll learn */
+
+    /* Start Accordion */
+    .courseContent{
+        font-size: 50px;
+    }
+
+    .courseDuration{
+        font-size: 20px;
+    }
+
+    /* End Accordion */
+
+    /* Start Requirements */
+
+    .requirements{
+        font-size: 35px;
+    }
+
+    .reqPoints{
+        font-size: 18px;
+    }
+
+    /* End Requirements */
+
+
+    /* Start Description */
+
+    .desc{
+        font-size: 35px;
+    }
+
+    .decWords{
+        font-size: 16px;
+    }
+
+    .descUl{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .forwhome{
+        font-size: 30px;
+    }
+
+    /* End Description */
+  /* End Course Content */
+
+  /* Start Scroll Butttom */
+  #topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #ec5766;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  /* End Scroll Button */
+
+
+
+
+    .price {
+        font-size: 1.3rem;
+    }
+
+    .spanPrice {
+        color: #217fc1;
+    }
+
+    /* .discount{
+        color: #217fc1;
+    } */
+
+    .spanPriceDis{
+        color: #b2bec3;
+        text-decoration: line-through;
+    }
+
+    .showDescription {
+        display: block; /* or inline-block */
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        max-height: 1.3em;
+    }
+

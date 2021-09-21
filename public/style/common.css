@@ -1,0 +1,86 @@
+/* header , footer ,button */
+/* ---------- start of color variables ------------- */
+:root {
+    --color1: #ffaebc;
+    --color2: #a0e7e5;
+    --color3: #b4f8c8;
+    --color4: #fbe7c6;
+    --color5: #ffffff;
+}
+/* ---------- end of color variables ------------- */
+/* ---------- start of color custom fonts ------------- */
+@font-face {
+    font-family: RobotoRegular;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobtoMedium;
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoThin;
+    src: url(./fonts/Roboto-Thin.ttf);
+}
+* {
+    font-family: RobotoRegular;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- end of color custom fonts ------------- */
+/* -------------- start of header ------------------ */
+header {
+    position: fixed !important;
+    background: #003640be;
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: 0px 3px 15px #003640;
+}
+@media only screen and (max-width: 1020px) {
+    #sign-anc-spn {
+        flex-wrap: wrap !important;
+    }
+}
+.header-btn {
+    font-size: 1.1rem !important;
+}
+/*------------- end of header -------------------- */
+/* -------------start of footer ------------------ */
+footer {
+    background: #003640;
+}
+.footer-title {
+    color: rgb(215, 224, 129);
+}
+.footer-link {
+    color: rgb(165, 165, 165);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.footer-link:hover {
+    color: rgb(255, 255, 255);
+}
+.footer-list {
+    line-height: 2rem;
+}
+/* -------------end of footer ------------------ */
+/* -------------shoping cart--------------------- */
+#cart-item-cunt {
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: black;
+    font-size: 0.8rem;
+}
+#cart-icon {
+    font-size: 1.5rem;
+}
